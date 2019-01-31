@@ -1,7 +1,6 @@
 // todo
 // add bandcamp
 // add upcoming listens tab
-// github it
 
 window.onload = function() {
     init()
@@ -14,7 +13,7 @@ function init() {
         key: public_spreadsheet_url,
         callback: errorCheck,
         simpleSheet: true,
-        debug: true
+        debug: false
 
     })
 }
